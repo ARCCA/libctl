@@ -2,7 +2,6 @@
 AC_INIT([libctl],[4.5.0],[stevenj@alum.mit.edu])
 AC_CONFIG_SRCDIR([src/ctl.c])
 AC_CONFIG_HEADERS([config.h src/ctl.h])
-AC_CONFIG_MACRO_DIR([m4])
 AM_MAINTAINER_MODE
 
 # Shared-library version number; indicates api compatibility, and is
